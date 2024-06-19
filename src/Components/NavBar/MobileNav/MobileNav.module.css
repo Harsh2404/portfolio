@@ -1,0 +1,61 @@
+
+    .MobileNav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: left;
+        padding:4rem;
+        background-color: white;
+        height: 100%;
+        top:0;
+        width: 70%;
+        right: 0;
+        z-index: 11;
+    }
+    .MobileNavContent{
+        right:0;
+        top: 6rem;
+    }
+    .Navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .ModeChange{
+        display: flex;
+        justify-content: space-between;
+    }
+    .NavAction {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .iconbutton {
+        width: 1.5rem;
+        height: 2rem;
+        font: inherit;
+        padding: 0.25rem 1rem;
+        cursor: pointer;
+        border: none;
+        
+    }
+
+    .iconbutton:hover,
+    .iconbutton:active {
+        background: #F3F4F6;
+        border-radius: 0.5rem;
+        border-color: #741188;
+    }
+
+    .iconbutton:focus {
+        outline: none;
+    }
+
+    @media screen and (min-width:790px) {
+        .MobileNav{
+            display: none;
+        }
+        
+    }

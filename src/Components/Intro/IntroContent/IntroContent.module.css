@@ -1,0 +1,39 @@
+.IntroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 2;
+
+}
+.TitleName{
+    color: var(--gray-900, #111827);
+
+    /* Heading/H1/Bold - Desktop */
+    /*font-family: Inter;*/
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.075rem;
+}
+
+.TitleText{
+    color: var(--gray-600, #4B5563);
+
+    /* Body2/Normal - All */
+    /*font-family: Inter;*/
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    /* width: 48rem; */
+    text-align: start;
+}
+
+@media screen and (max-width: 790px){
+    .TitleName{
+        font-size: 2.25rem;
+    }
+}
+
+

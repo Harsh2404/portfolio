@@ -1,0 +1,45 @@
+/* Media squery standards
+Let say that you put breakpoints at 43em (688px), 62em (992px), and 82em (1312px) wide. 
+You know that phones will all be under 688px, 
+most tablets will fall somewhere between 688px and 992px, 
+smaller screens will be between 992px to 1312px, and larger screens will be greater than 1312px.
+*/
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    flex-wrap:wrap;
+    align-items: center;
+    overflow: hidden;
+    flex-grow:  1 3 1;
+
+}
+
+.Hamburger{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .NavBar{
+        padding: 1rem 2rem; 
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .NavBar{
+        padding: 1rem 0.5rem; 
+    }
+
+    .Hamburger{
+        display: block;
+        width:2rem;
+        height:2rem;
+        align-self: flex-end;
+        right: 0;
+        z-index: 12;
+    }
+   
+}

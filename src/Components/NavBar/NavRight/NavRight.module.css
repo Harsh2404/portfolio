@@ -1,0 +1,52 @@
+.NavRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.vl{
+    height: 1.5rem;
+    width: 0.125rem;
+    background-color: #F3F4F6;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.NavAction{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.iconbutton {
+    width: 1.5rem;
+    height: 2rem;
+    font: inherit;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  
+  .iconbutton:hover,
+  .iconbutton:active {
+    background: #F3F4F6;
+    border-radius: 0.5rem;
+    border-color: #741188;
+  }
+  
+  .iconbutton:focus {
+    outline: none;
+  }
+
+  @media screen and (max-width:790px) {
+    .NavRight{
+      display: none;
+    }
+    
+  }

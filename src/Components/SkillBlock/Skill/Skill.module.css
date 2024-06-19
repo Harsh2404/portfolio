@@ -1,0 +1,13 @@
+.Skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.Skill img{
+    height: 4rem;
+    width: 4rem;
+}

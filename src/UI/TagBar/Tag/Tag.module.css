@@ -1,0 +1,13 @@
+.Tag{
+    
+    display: flex;
+    padding: 0.375rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;        
+    border-radius: 0.75rem;
+    background: var(--gray-200, #E5E7EB);
+    border-style:none;
+    color: #06080a;
+    max-height:fit-content;
+}

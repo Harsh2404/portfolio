@@ -1,0 +1,53 @@
+.About{
+    display: flex;
+    padding: 6rem 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--gray-50, #F9FAFB);
+    gap: 5rem;
+}
+.AboutBox{
+    display: flex;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.Box{
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    /* align-self: stretch; */
+    flex-wrap: wrap;
+}
+
+
+
+.PhotoContainer{
+    min-width: 280px;
+    height: 320px;
+    border: none;
+    box-shadow: -32px 28px #E5E7EB;
+    background-image: url('../../assets/ProfilePic\(280x320\).jpeg');
+    background-position: 0 40% ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 6rem;
+    margin-left: 2rem;
+}
+
+
+@media (max-width:790px){
+    .About{
+        padding: 4rem 1rem;
+
+    }
+    .AboutBox{
+        padding: 0;
+    }
+    .PhotoContainer{
+        margin: 0;
+    }
+    
+}
