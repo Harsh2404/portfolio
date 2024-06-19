@@ -1,0 +1,7 @@
+.NavItem{
+    text-decoration: none;
+}
+
+.NavItem:link, .NavItem:visited {
+    color: #4B5563;
+}

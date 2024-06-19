@@ -1,0 +1,40 @@
+.Intro{
+    display: flex;
+    padding: 6rem 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.p{
+    margin-left: 6rem;
+}
+
+
+.PhotoContainer{
+    display: flex;
+    border: none;
+    box-shadow: 32px -28px #E5E7EB;
+    margin-left: 6rem;
+    margin-right:2rem;
+    
+}
+
+.PhotoContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: 0% 30%;
+}
+@media screen and (max-width: 790px) {
+    .Intro{
+        display:flex;
+        flex-direction: column-reverse;
+        padding: 4rem 1rem;
+        
+    }
+    .PhotoContainer{
+        box-shadow: 20px -18px #E5E7EB;
+        margin-left: 3.5rem;
+        margin-right:3.5rem;
+    }
+    
+}

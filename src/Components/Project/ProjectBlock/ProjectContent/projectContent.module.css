@@ -1,0 +1,45 @@
+
+.ProjectTags {
+    display: flex;
+    color: blue;
+}
+
+.ProjectContent{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.ProjectTitle{
+    color: var(--gray-900, #111827);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.75rem; /* 140% */
+text-align: left;
+}
+
+.ProjectText{
+    text-align: left;
+    line-height: 1.5rem;
+    gap : 1.5rem;
+}
+
+.ProjectTags{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:790px) {
+    .ProjectContent{
+        padding: 1rem;
+    }
+    
+}
+
+
+

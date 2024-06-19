@@ -1,0 +1,18 @@
+.iconbutton {
+    font: inherit;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  
+  .iconbutton:hover,
+  .iconbutton:active {
+    background: #F3F4F6;
+    border-radius: 0.5rem;
+    border-color: #741188;
+  }
+  
+  .iconbutton:focus {
+    outline: none;
+  }

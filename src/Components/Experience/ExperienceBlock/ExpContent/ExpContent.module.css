@@ -1,0 +1,19 @@
+.ExpContentTitle{
+    color: var(--gray-900, #111827);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.75rem; /* 140% */
+text-align: left;
+padding-inline-start: 1.5rem;
+}
+
+.ExpContentText{
+    text-align: left;
+    line-height: 1.5rem;
+}
+@media screen and (max-width:790px) {
+.ExpContent{
+    order:2;
+}
+}
