@@ -19,6 +19,7 @@ smaller screens will be between 992px to 1312px, and larger screens will be grea
 
 .Hamburger{
     display: none;
+
 }
 
 
@@ -37,7 +38,6 @@ smaller screens will be between 992px to 1312px, and larger screens will be grea
         display: block;
         width:2rem;
         height:2rem;
-        align-self: flex-end;
         right: 0;
         z-index: 12;
     }

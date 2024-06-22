@@ -17,14 +17,17 @@ function App() {
     <BrowserRouter>
     <div className="App">
       {(WesiteStatus===false)?(<PageUnderConstruction />):
-      ( <Fragment><NavBar />
-      <Intro />
-      <About />
-      <SkillBlock />
-      <Experience />
-      <Project/>
-      <Contact/>
-      <Footer/>
+      ( 
+      <Fragment><NavBar />
+        <Intro />
+        {/* <About /> */}
+        <Project/>
+        <Experience />
+        <SkillBlock />
+        
+        
+        <Contact/>
+        <Footer/>
       </Fragment>)}
     </div>
     </BrowserRouter>
