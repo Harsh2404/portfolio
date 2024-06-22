@@ -9,26 +9,37 @@ const Experience = (props) => {
     {
       logo: logo,
       content: {
-        title: "Sr. FrontEnd Developer",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<li>Ut pretium arcu et massa semper, id fringilla leo semper.<li>Sed quis justo ac magna.<li>Sed quis justo ac magna.Sed quis justo ac magna.",
+        title: "Teaching Assistant",
+        info: "Held the role of an Undergraduate Teaching Assistant for the course CIS 2030: Structure and Application of Microprocessor and CIS 2130: Web Development at the university."+
+        "<li>Conducted regular tutorials and lab sessions, providing hands-on guidance and instruction to students on microprocessor architecture, assembly language programming, and interfacing techniques."+
+        "<li>Assisted students in understanding complex concepts related to microprocessors, including instruction sets, memory organization, input/output operations, and interrupt handling."+
+        "<li>Reviewed and graded student assignments, quizzes, and exams, providing constructive feedback and helping students identify areas of improvement."+
+        "<li>Held office hours and one-on-one sessions to address individual student queries, offering tailored assistance and fostering a supportive learning environment.",
       },
-      year: "Nov 2020 - Dec 2023"
+      year: "Mar 2023 - Jan 2024"
     },
     {
         logo: logo,
         content: {
-          title: "Jr. FrontEnd Developer",
-          info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<li>Ut pretium arcu et massa semper, id fringilla leo semper.<li>Sed quis justo ac magna.<li>Sed quis justo ac magna.Sed quis justo ac magna.",
+          title: "Research Assistant",
+          
+
+
+          info: "Participated in a research project under Dr. Shawki Areibi at Lab 2314, focusing on enhancing FPGA placement using computer vision techniques applied to GPLACE 3.0."+
+          "<li>Conducted a comprehensive literature review on object detection models, assessing their strengths and weaknesses for FPGA cluster placement optimization."+
+          "<li>Developed and implemented object detection algorithms like RCNN, Fast-RCNN, Faster-RCNN, and YOLO using TensorFlow and PyTorch to analyze thermal images of FPGA."+
+          "<li> Utilized these algorithms to detect and delineate heating clusters within FPGA thermal images by drawing bounding boxes.",
         },
-        year: "Nov 020 - Dec 202"
+        year: "Mar 2023 - Aug 2023"
       },
       {
         logo: logo,
         content: {
-          title: "FrontEnd Developer",
-          info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<li>Ut pretium arcu et massa semper, id fringilla leo semper.<li>Sed quis justo ac magna.<li>Sed quis justo ac magna.Sed quis justo ac magna.",
+          title: "Software Developer",
+          info: "Integrated Government Tax Filling API and Payment Gateway(Razorpay), which enabled tax filing easier for users."+
+"<li>Created a dashboard that provided users with complete information about the details of the tax filing document, and guidelines to follow on each step that allowed them to manage their taxes more conveniently. Additionally, integrated CA(Chartered Accountant)support through the Zoom video call feature.",
         },
-        year: "Nov 202 - Dec 203"
+        year: "June 2021 - Jan 2022"
       },
   ];
   return (
