@@ -10,7 +10,7 @@
     padding: 3rem;
     align-items: flex-start;
     gap: 1.5rem;
-    width: 100%;
+    
 }
 
 .ProjectTitle{
@@ -34,7 +34,7 @@ text-align: left;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:790px) {
+@media screen and (max-width:992px) {
     .ProjectContent{
         padding: 1rem;
     }

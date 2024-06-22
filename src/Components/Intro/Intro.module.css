@@ -1,40 +1,79 @@
-.Intro{
+.Intro {
     display: flex;
+    align-items: center;
     padding: 6rem 5rem;
     justify-content: space-between;
-    align-items: flex-start;
-}
-.p{
-    margin-left: 6rem;
+    gap:1rem;
+    align-items: center;
+    background: var(--gray-50, #F9FAFB);
 }
 
-
-.PhotoContainer{
+.PhotoContainer {
     display: flex;
     border: none;
-    box-shadow: 32px -28px #E5E7EB;
-    margin-left: 6rem;
-    margin-right:2rem;
-    
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    overflow: hidden;
+    min-width: 400px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed */
+    margin-bottom: 2rem;
 }
 
-.PhotoContainer img{
+.PhotoContainer img {
     height: 100%;
     width: 100%;
-    object-fit:cover;
-    object-position: 0% 30%;
+    object-fit: cover;
+    object-position: center;
 }
-@media screen and (max-width: 790px) {
+
+.IntroContent {
+    flex-direction: column;
+    max-width: 600px;
+
+    /* text-align: center; */
+}
+
+.Hello {
+    color: var(--gray-900, #111827);
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.075rem;
+    margin: 0.5rem;
+    text-align: start;
+}
+
+.About {
+    color: var(--gray-600, #4B5563);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+@media screen and (max-width: 992px) {
     .Intro{
-        display:flex;
-        flex-direction: column-reverse;
-        padding: 4rem 1rem;
-        
+        padding: 4rem 2rem; 
     }
-    .PhotoContainer{
-        box-shadow: 20px -18px #E5E7EB;
-        margin-left: 3.5rem;
-        margin-right:3.5rem;
+    .Hello {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .Intro {
+        padding: 4rem 1rem;
+        flex-direction: column;
     }
     
+    .PhotoContainer {
+        min-width: 300px;
+        height: 337.5px;
+        margin-bottom: 1rem;
+    }
+
+    .Hello {
+        font-size: 2.25rem;
+    }
 }

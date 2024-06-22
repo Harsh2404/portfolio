@@ -9,14 +9,19 @@
 
 .projectContainer{
     display: flex;
-padding: 0rem 2rem;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 3rem;
-align-self: stretch;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    align-self: stretch;
 }
-
+@media screen and (max-width: 992px) {
+    .project{
+        padding: 4rem 2rem; 
+    }
+    }
+    
 @media screen and (max-width:790px){
     .project{
         padding: 4rem 1rem;
