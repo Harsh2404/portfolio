@@ -8,7 +8,7 @@ const projectContent = (props) => {
 
   return (
     <div className={classes.ProjectContent}>
-      <div className={classes.ProjectTitle}>{props.projectTitle}</div>
+      <div className={classes.ProjectTitle}><a href={props.link}>{props.projectTitle}</a></div>
 
       <div className={classes.ProjectText}>{props.projectText}</div>
       {/* style={{ display: "flex" }} */}
@@ -17,7 +17,7 @@ const projectContent = (props) => {
           <Tag text={x} key={index}/>
         ))}
       </div>
-      {props.link}
+      
     </div>
   );
 };
