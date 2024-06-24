@@ -4,10 +4,10 @@ import ProjectContent from './ProjectContent/projectContent';
 const projectBlock=(props)=>{
     return(
         <div className={[classes.ProjectBlock, props.even ? classes.even : ""].join(' ')}>
-            <div className={classes.ProjectLogo}>
+            {/* <div className={classes.ProjectLogo}>
                 <img src={props.project.logo} alt="logo" ></img>
                 
-            </div>
+            </div> */}
              <ProjectContent 
                 projectTitle={props.project.content.title} 
                 projectText={props.project.content.info}

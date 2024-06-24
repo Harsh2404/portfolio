@@ -5,7 +5,7 @@ import ProfilePic from "../../assets/home.jpg";
 
 const Intro=(props)=>{
     return(
-    <div className={classes.Intro}>
+    <div className={classes.Intro} id="About">
             <div className={classes.IntroContent}>
                 <p className={classes.Hello}>Hello, I'm Harsh Shah</p>
                 <p className={classes.About}>

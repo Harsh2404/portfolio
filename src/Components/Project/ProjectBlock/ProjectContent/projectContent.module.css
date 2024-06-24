@@ -2,6 +2,8 @@
 .ProjectTags {
     display: flex;
     color: blue;
+    gap: 1rem;
+
 }
 
 .ProjectContent{

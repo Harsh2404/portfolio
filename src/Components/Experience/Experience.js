@@ -2,12 +2,24 @@ import Subtitle from "../../UI/Subtitle/Subtitle";
 import TagBar from "../../UI/TagBar/TagBar";
 import classes from "./Experience.module.css";
 import ExperienceBlock from "./ExperienceBlock/ExperienceBlock";
-import logo from "../../assets/Logo.png";
+import consultarer from "../../assets/consultarer-logo.png";
+import uofg from "../../assets/uofg.png";
+import ineuron from "../../assets/ineuron.png";
 
 const Experience = (props) => {
   const ExperienceList = [
     {
-      logo: logo,
+      logo: consultarer,
+      content: {
+        title: "Software Developer",
+        info: "Working with startup to develop Minimum Viable Product (MVP), a web portal named Consultarer leveraging PHP Laravel for backend development and React for the frontend. "+
+        "<li>Collaborated with the Payments team to design and implement secure payment processing systems, including transaction management, billing, dispute resolution, and payouts using Stripe Connect."+
+        "<li>Assisted the core team in containerizing the application using Docker, enhancing deployment efficiency and scalability. Documented the entire process for future reference and team onboarding..",
+      },
+      year: "May 2024 - Present"
+    },
+    {
+      logo: uofg,
       content: {
         title: "Teaching Assistant",
         info: "Held the role of an Undergraduate Teaching Assistant for the course CIS 2030: Structure and Application of Microprocessor and CIS 2130: Web Development at the university."+
@@ -19,7 +31,7 @@ const Experience = (props) => {
       year: "Mar 2023 - Jan 2024"
     },
     {
-        logo: logo,
+        logo: uofg,
         content: {
           title: "Research Assistant",
           
@@ -33,7 +45,7 @@ const Experience = (props) => {
         year: "Mar 2023 - Aug 2023"
       },
       {
-        logo: logo,
+        logo: ineuron,
         content: {
           title: "Software Developer",
           info: "Integrated Government Tax Filling API and Payment Gateway(Razorpay), which enabled tax filing easier for users."+
