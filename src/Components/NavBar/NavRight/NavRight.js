@@ -15,8 +15,10 @@ const NavRight=(props)=>{
                 </div>
                 <div className={classes.vl}></div>
                 <div className={classes.NavAction}>
-                    <BiSun className={classes.iconbutton}/>
-                    <Button>Download CV</Button>
+                    {/* <BiSun className={classes.iconbutton}/> */}
+                    <a href="https://drive.google.com/file/d/1qmGVYZiMeiInzt_nMbMiRrYb4Z4Eufv2/view?usp=sharing">
+                        <Button>Download CV</Button>
+                    </a>
                 </div> 
             </div>    
         

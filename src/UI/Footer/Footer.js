@@ -2,7 +2,7 @@ import classes from './Footer.module.css';
 const Footer=(props)=>{
     return(
     <div className={classes.Footer}>
-        Designed coded By Harsh & Richal with Love
+        Designed & coded By Harsh Shah
     </div>
     )
 

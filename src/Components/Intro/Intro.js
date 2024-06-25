@@ -7,21 +7,16 @@ const Intro=(props)=>{
     return(
     <div className={classes.Intro} id="About">
             <div className={classes.IntroContent}>
-                <p className={classes.Hello}>Hello, I'm Harsh Shah</p>
+                <p className={classes.Hello}>I'm Harsh Shah.</p>
                 <p className={classes.About}>
-                    I'm MEng Computer Engineering graduate from University of Guelph.
-                    Looking for full time opporunity as a Data Analyst or Software Developer.
-                    <br/>
-                    <br/>
-                I'm a passionate, self-proclaimed designer who specializes in full stack development 
-                (React.js & Node.js). I am very enthusiastic about bringing the technical and visual 
-                aspects of digital products to life. User experience, pixel perfect design, and writing 
-                clear, readable, highly performant code matters to me.
+                Hey there! I'm a recent MEng Computer Engineering graduate from the University of Guelph, 
+                on the lookout for full-time opportunities as a Data Analyst or Software Developer.
                 <br/>
                 <br/>
-                I began my journey as a web developer in 2015, and since then, 
-                I've continued to grow and evolve as a developer, taking on new 
-                challenges and learning the latest technologies along the way. 
+                I have a knack for solving problems and a genuine love for learning new things. 
+                Whether it's crafting elegant code or diving deep into data insights, 
+                I'm always eager to tackle challenges head-on.
+                    
                 
                 
                 <br/>

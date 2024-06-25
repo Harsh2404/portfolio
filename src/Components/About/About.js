@@ -1,6 +1,5 @@
 import AboutContent from "./AboutContent/AboutContent";
 import classes from "./About.module.css"
-import ProfilePic from "../../assets/ProfilePic(280x320).jpeg";
 import TagBar from "../../UI/TagBar/TagBar";
 
 const About=(props)=>{

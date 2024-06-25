@@ -12,6 +12,10 @@ padding-inline-start: 1.5rem;
     text-align: left;
     line-height: 1.5rem;
 }
+ul{
+    /* list-style-type: none; */
+    padding-inline-start: 1.5rem;
+}
 @media screen and (max-width:790px) {
 .ExpContent{
     order:2;

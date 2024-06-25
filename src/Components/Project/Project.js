@@ -15,15 +15,7 @@ const projectList = [
       link: "https://github.com/Harsh2404/WaterQualityPred-SparkML",
     },
   },
-  // {
-  //   logo: Projectimg,
-  //   content: {
-  //     title: "Consultarer : RemoteWorkHub",
-  //     info: "Developing a ”Remote Jobs” portal using PHP Laravel for the backend and React for the front end,enabling freelance job opportunities for admin workers. Integrated Stripe for secure payment processing and transaction management. Implemented features for job posting, application management, and user profiles.",
-  //     tags: "PHP, Laravel, MySQL, React Js, Stripe API, Chakra UI, Git, Agile Methodology",
-  //     link: "link",
-  //   },
-  // },
+  
   {
     logo: Projectimg,
     content: {
@@ -31,6 +23,15 @@ const projectList = [
       info: "Developed an action recognition system utilizing computer vision techniques and machine learning algorithms. Leveraged state-of-the-art deep learning frameworks such as TensorFlow and PyTorch for model training and inference. Implemented feature extraction using optical flow and convolutional neural networks (CNNs), 3n based on a series of frames. Achieved an accuracy of 85%, performing similarly to benchmark methods.",
       tags: "LSTM, Image Processing, Image Analysis, 3D CNN",
       link: "https://github.com/Harsh2404/HumanActionRecognition",
+    },
+  },
+  {
+    logo: Projectimg,
+    content: {
+      title: "Consultarer - Freelance Job Portal",
+      info: "Working with startup to develop Minimum Viable Product (MVP), a web portal named Consultarer leveraging PHP Laravel for backend development and React for the frontend. Integrated Stripe for secure payment processing and transaction management. Implemented features for job posting, application management, and user profiles.",
+      tags: "PHP, Laravel, MySQL, React Js, Stripe API, Chakra UI, Git, Agile Methodology",
+      link: "https://consultarer.com/",
     },
   },
 ];

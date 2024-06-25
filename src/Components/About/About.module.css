@@ -29,7 +29,7 @@
     height: 320px;
     border: none;
     box-shadow: -32px 28px #E5E7EB;
-    background-image: url('../../assets/ProfilePic\(280x320\).jpeg');
+    /* background-image: url('../../assets/ProfilePic\(280x320\).jpeg'); */
     background-position: 0 40% ;
     background-size: contain;
     background-repeat: no-repeat;
