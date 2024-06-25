@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6a893f21.css",
-    "main.js": "/portfolio/static/js/main.ff29744b.js",
+    "main.css": "/portfolio/static/css/main.a0d602ed.css",
+    "main.js": "/portfolio/static/js/main.558cd07a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/react.png": "/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python.png": "/portfolio/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/php.png": "/portfolio/static/media/php.00baeb442607d6f50cfe.png",
     "static/media/home.jpg": "/portfolio/static/media/home.17d596e00f622712d845.jpg",
-    "static/media/ProfilePic(280x320).jpeg": "/portfolio/static/media/ProfilePic(280x320).9223bd32ed045cc2fa0c.jpeg",
+    "static/media/aws.png": "/portfolio/static/media/aws.0d395cfe32e21d5a7995.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/project-img.png": "/portfolio/static/media/project-img.d15ace41a4b7cbc6d084.png",
+    "static/media/jupyter.png": "/portfolio/static/media/jupyter.e0e612fd290b62ecd44a.png",
+    "static/media/scikit.png": "/portfolio/static/media/scikit.e323786f2489aa601b90.png",
+    "static/media/hadoop.png": "/portfolio/static/media/hadoop.acaec348ef27bfc536fc.png",
+    "static/media/laravel.png": "/portfolio/static/media/laravel.12ffe688eaea7cac2eba.png",
     "static/media/ineuron.png": "/portfolio/static/media/ineuron.327dbc267d7e191d9cc8.png",
-    "static/media/Logo.png": "/portfolio/static/media/Logo.e05c4693a970e5b7f615.png",
+    "static/media/pytorch.png": "/portfolio/static/media/pytorch.648f26a4323eb5ba89f7.png",
+    "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.f7f28aa02648421ac8fd.png",
+    "static/media/harsh-logo.png": "/portfolio/static/media/harsh-logo.9f3519ca6f7daab0ef34.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.a04abbf76b39676bc4d9.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
-    "main.6a893f21.css.map": "/portfolio/static/css/main.6a893f21.css.map",
-    "main.ff29744b.js.map": "/portfolio/static/js/main.ff29744b.js.map",
+    "main.a0d602ed.css.map": "/portfolio/static/css/main.a0d602ed.css.map",
+    "main.558cd07a.js.map": "/portfolio/static/js/main.558cd07a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a893f21.css",
-    "static/js/main.ff29744b.js"
+    "static/css/main.a0d602ed.css",
+    "static/js/main.558cd07a.js"
   ]
 }
