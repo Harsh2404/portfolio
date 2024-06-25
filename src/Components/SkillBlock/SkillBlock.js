@@ -8,7 +8,7 @@ import Subtitle from "../../UI/Subtitle/Subtitle";
 const skillBlock =(props)=>{
 
   const images = require.context('../../assets/skills', false);
-  const skillList = images.keys().map((image)=>({name: image.replace('./', ''), url: images(image)}));
+  const skillList = images.keys().map((image)=>({name: image.replace('./', '').replace(/\.[^/.]+$/, ""), url: images(image)}));
   console.log(skillList);
 
 

@@ -1,6 +1,7 @@
 
 import classes from "./Intro.module.css"
 import ProfilePic from "../../assets/home.jpg";
+import { FaLocationDot } from "react-icons/fa6";
 
 
 const Intro=(props)=>{
@@ -21,7 +22,7 @@ const Intro=(props)=>{
                 
                 <br/>
                 <br/>
-                Toronto, CA</p>
+                <FaLocationDot style={{marginRight: "0.5rem"}}/>Ontario,Canada</p>
             </div>
             <div className={classes.PhotoContainer}>
                 <img src={ProfilePic} alt="ProfilePic"/> 

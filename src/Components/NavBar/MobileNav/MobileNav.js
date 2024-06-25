@@ -1,7 +1,6 @@
 import classes from "./MobileNav.module.css";
 import NavItem from "../NavRight/NavItem/NavItem";
 import Button from "../../../UI/Button/Button";
-import { BiSun } from "react-icons/bi";
 
 
 const NavRight = (props) => {
@@ -14,11 +13,13 @@ const NavRight = (props) => {
           <NavItem title="Experience" LinkTo="#Experience" CloseBackdrop={props.changeState}/>
           <NavItem title="Projects" LinkTo="#Projects" CloseBackdrop={props.changeState}/>
           <NavItem title="Contact" LinkTo="#Contact" CloseBackdrop={props.changeState}/>
+           <div className={classes.NavAction}>
+            <a href="https://drive.google.com/file/d/1qmGVYZiMeiInzt_nMbMiRrYb4Z4Eufv2/view?usp=sharing">
+              <Button>Download CV</Button>
+            </a>
         </div>
-        <div className={classes.NavAction}>
-          <div className={classes.ModeChange}><p>Mode Change</p><BiSun className={classes.iconbutton} /></div>
-          <Button>Download CV</Button>
         </div>
+       
         </div>
     </div>
   );

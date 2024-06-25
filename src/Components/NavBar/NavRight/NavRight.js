@@ -1,7 +1,7 @@
 import classes from "./NavRight.module.css";
 import NavItem from "./NavItem/NavItem";
 import Button from "../../../UI/Button/Button";
-import {BiSun} from "react-icons/bi";
+
 
 
 const NavRight=(props)=>{
